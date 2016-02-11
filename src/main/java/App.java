@@ -19,11 +19,7 @@ public class App {
 
             output = new FileOutputStream("config.properties");
 
-            prop.setProperty("database", "localhost");
-            prop.setProperty("dbuser", "mkyong");
-            prop.setProperty("dbpassword", "password");
-
-            prop.store(output, null);
+            
 
         } catch (IOException e) {
             e.printStackTrace();
